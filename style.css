@@ -1,0 +1,63 @@
+body {
+    background-color: #0c4a6e;
+    font-family: 'Segoe UI', sans-serif;
+    color: white;
+    display: flex;
+    justify-content: center;
+    padding-top: 60px;
+}
+
+.faucet-container {
+    background: #0ea5e9;
+    background: linear-gradient(180deg, #0ea5e9 0%, #0284c7 100%);
+    width: 400px;
+    padding: 40px;
+    border-radius: 20px;
+    box-shadow: 0 10px 30px rgba(0,0,0,0.3);
+    text-align: center;
+}
+
+h1 { margin-bottom: 5px; text-shadow: 0 2px 4px rgba(0,0,0,0.2); }
+
+.info-panel {
+    background: rgba(255, 255, 255, 0.2);
+    padding: 15px;
+    border-radius: 10px;
+    margin: 20px 0;
+    text-align: left;
+    font-size: 0.95rem;
+}
+
+button {
+    border: none;
+    cursor: pointer;
+    font-weight: bold;
+    border-radius: 8px;
+    transition: transform 0.1s;
+}
+
+#connectBtn {
+    background: white;
+    color: #0284c7;
+    padding: 8px 16px;
+    margin-bottom: 10px;
+}
+
+.action-btn {
+    width: 100%;
+    padding: 15px;
+    font-size: 1.1rem;
+    background: #fbbf24;
+    color: #451a03;
+    box-shadow: 0 4px 0 #d97706;
+}
+
+.action-btn:active { transform: translateY(4px); box-shadow: none; }
+.action-btn:disabled { 
+    background: #94a3b8; 
+    color: #e2e8f0; 
+    box-shadow: none; 
+    cursor: not-allowed; 
+}
+
+.status { margin-top: 15px; font-weight: bold; min-height: 20px; }
